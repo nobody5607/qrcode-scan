@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nobody5607/qrcode-scan.git/precache-manifest.41dcea1edab88a601b3ac781d99d8d87.js"
+  "/qrcode-scan/precache-manifest.86ac78efaf8de1e7aba16e8b9e7f8a16.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nobody5607/qrcode-scan.git/index.html", {
+workbox.routing.registerNavigationRoute("/qrcode-scan/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
