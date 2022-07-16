@@ -20,10 +20,8 @@
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://nobody5607.github.io/qrcode-scan",
   "scripts": {
     "pm2": "pm2 serve build/ 8085 --name \"qr:8085\" --spa",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
