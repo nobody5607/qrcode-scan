@@ -22,7 +22,7 @@
   },
   "homepage": "https://nobody5607.github.io/qrcode-scan",
   "scripts": {
-    "predeploy": "npm run build",
+    "pm2": "pm2 serve build/ 8085 --name \"qr:8085\" --spa",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
